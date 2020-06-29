@@ -66,6 +66,14 @@ li {
 }
 
 
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
+
+
+
 .main-section-heading {
     margin-top: 0;
 }
@@ -93,11 +101,4 @@ li {
 
 .nav-link:hover {
     color: #111d5e;
-}
-
-
-@media (max-width: 600px) {
-    nav {
-        display: none;
-    }
 }
