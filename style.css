@@ -66,12 +66,6 @@ li {
 }
 
 
-@media (max-width: 600px) {
-    nav {
-        display: none;
-    }
-}
-
 
 
 .main-section-heading {
@@ -101,4 +95,33 @@ li {
 
 .nav-link:hover {
     color: #111d5e;
+}
+
+
+
+@media (max-width: 600px) {
+    #nav {
+        display: none;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    #navbar-header {
+        display: none;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    #main-doc {
+        margin: auto;
+        border none;
+    }
+
+    code {
+        font-size: 1.05em;
+    }
 }
