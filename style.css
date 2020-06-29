@@ -8,7 +8,6 @@ body {
 
 pre {
     width: 100%;
-
 }
 
 code {
@@ -39,7 +38,7 @@ li {
     margin-bottom: 0;
 }
 
-#Reference > p {
+#Reference>p {
     margin-bottom: 0;
     padding-bottom: 20px;
 }
@@ -49,24 +48,18 @@ li {
     width: 22%;
     display: flex;
     flex-direction: column;
-
 }
-
 
 #main-doc {
     margin-left: 22%;
     padding-left: 1%;
     border-left: 2px solid grey;
     background-color: #f4f6ff;
-
 }
 
 #Introduction-header {
     padding-top: 30px;
 }
-
-
-
 
 .main-section-heading {
     margin-top: 0;
@@ -90,14 +83,11 @@ li {
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-
 }
 
 .nav-link:hover {
     color: #111d5e;
 }
-
-
 
 @media (max-width: 800px) {
     #navbar {
@@ -115,7 +105,7 @@ li {
         margin: auto;
     }
 
-    .nav-link{
+    .nav-link {
         display: none;
     }
 
@@ -126,9 +116,7 @@ li {
         width: 95%;
         border: none;
         font-size: 0.85em;
-
     }
-
 
     code {
         width: inherit;
