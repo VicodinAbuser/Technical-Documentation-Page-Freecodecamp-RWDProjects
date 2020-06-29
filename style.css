@@ -100,8 +100,8 @@ li {
 
 
 @media (max-width: 600px) {
-    #nav {
-        display: none;
+    #navbar {
+        position: relative;
     }
 
     .navbar-links {
@@ -109,7 +109,10 @@ li {
     }
 
     #navbar-header {
-        display: none;
+        position: relative;
+        left: 120%;
+        text-align: center;
+        margin: auto;
     }
 
     .nav-link{
@@ -117,11 +120,22 @@ li {
     }
 
     #main-doc {
-        margin: auto;
-        border none;
+        margin: 0px;
+        padding: 10px;
+        padding-top: 10px;
+        width: 95%;
+        border: none;
+        font-size: 0.85em;
+
     }
 
+
     code {
-        font-size: 1.05em;
+        width: inherit;
+        font-size: 0.75em;
+    }
+
+    a {
+        color: black;
     }
 }
