@@ -183,13 +183,15 @@ greetMe("World");</code></pre>
                 </p>
                 <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:
                 </p>
-                <pre><code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
-CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+                <pre><code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5;
+ // THIS WILL CAUSE AN ERROR ALSO
+function f() { const g = 5; var g; //statements
 }</code></pre>
 
                 <p>However, object attributes are not protected, so the following statement is executed without problems.
                 </p>
-                <pre><code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code></pre>
+                <pre><code>const MY_OBJECT = {"key": "value"};
+ MY_OBJECT.key = "otherValue";</code></pre>
 
 
             </section>
@@ -239,8 +241,9 @@ CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
                 </p>
                 <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:
                 </p>
-                <pre><code>/ THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
-CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+                <pre><code>/ THIS WILL CAUSE AN ERROR function f() {}; const f = 5;
+// THIS WILL CAUSE AN ERROR ALSO
+function f() { const g = 5; var g; //statements
 }</code></pre>
 
 
